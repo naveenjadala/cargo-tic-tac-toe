@@ -4,7 +4,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 [![React Native](https://img.shields.io/badge/React%20Native-v0.73.0-blue.svg)](https://facebook.github.io/react-native/)
 [![Node](https://img.shields.io/badge/Node-v18.18.0-green.svg)](https://nodejs.org/)
-[![npm](https://img.shields.io/badge/npm-v10.1.0.14.13-red.svg)](https://www.npmjs.com/)
+[![npm](https://img.shields.io/badge/npm-v10.1.0-red.svg)](https://www.npmjs.com/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 # Overview
@@ -19,11 +19,7 @@ Basic win detection logic
 Turn indicators for each player
 Game reset functionality
 
-# Screenshots
-
 # Getting Started
-
-> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -77,10 +73,6 @@ npm run test:watch
 # (after run the coverage download the coverage report from the coverage folder)
 npm run test:coverage
 ```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
 # Folder Structure
 
