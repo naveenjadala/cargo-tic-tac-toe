@@ -5,6 +5,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 [![React Native](https://img.shields.io/badge/React%20Native-v0.73.0-blue.svg)](https://facebook.github.io/react-native/)
 [![Node](https://img.shields.io/badge/Node-v18.18.0-green.svg)](https://nodejs.org/)
 [![npm](https://img.shields.io/badge/npm-v10.1.0-red.svg)](https://www.npmjs.com/)
+[![JDK](https://img.shields.io/badge/JDK-v17.0.8-orange.svg)](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 # Overview
@@ -19,7 +20,7 @@ Basic win detection logic
 Turn indicators for each player
 Game reset functionality
 
-# Getting Started
+# To run the app
 
 ## Step 1: Start the Metro Server
 
@@ -78,8 +79,9 @@ npm run test:coverage
 
 ```bash
 |-- src/
+|  |-- assets/
 |  |-- components/
-|  |  |-- board
+|  |  |-- board/
 |  |  |  |-- Board.tsx
 |  |  |  |-- Board.styles.ts
 |  |  |  |-- Board.test.ts
@@ -87,7 +89,7 @@ npm run test:coverage
 |  |  |  |-- types.ts
 |  |  |-- ....
 |  |-- screens/
-|  |  |-- Home
+|  |  |-- Home/
 |  |  |  |-- components/ #related only to home screen
 |  |  |  |-- Home.tsx
 |  |  |  |-- Home.styles.ts
@@ -100,4 +102,10 @@ npm run test:coverage
 |-- README.md
 |-- App.tsx
 |-- ....
+```
+
+# APK Drive Link
+
+```bash
+https://drive.google.com/file/d/1YoQ1_9jxU4ClpfSFf-SEescPsvgpU2Vd/view?usp=sharing
 ```
