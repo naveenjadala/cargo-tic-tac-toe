@@ -5,7 +5,7 @@ jest.spyOn(Alert, 'alert');
 
 import WinnerComponent from './WinnerComponent';
 
-test('renders correctly with winner', () => {
+test('WinnerComponent renders correctly with winner "X"', () => {
   const mockRestGame = jest.fn();
   render(
     <WinnerComponent player="X" resetGame={mockRestGame} label="winner" />,
@@ -18,7 +18,7 @@ test('renders correctly with winner', () => {
   ]);
 });
 
-test('renders correctly with draw', () => {
+test('WinnerComponent renders correctly with draw scenario', () => {
   const mockRestGame = jest.fn();
   render(<WinnerComponent player="X" resetGame={mockRestGame} label="draw" />);
   expect(Alert.alert).toHaveBeenCalled();

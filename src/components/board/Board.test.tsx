@@ -1,7 +1,7 @@
 import {fireEvent, render, screen, waitFor} from '../../test/test-utils';
 import Board from './Board';
 
-test('renders correctly with values in board', async () => {
+test('Board component renders correctly with specified values in the board', async () => {
   render(
     <Board
       matrix={[
@@ -23,7 +23,7 @@ test('renders correctly with values in board', async () => {
   });
 });
 
-test('should render update board onPress on tile', () => {
+test('Board component renders correctly with onPress on tile', () => {
   const mockFn = jest.fn();
   render(
     <Board
